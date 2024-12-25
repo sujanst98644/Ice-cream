@@ -25,7 +25,7 @@ const Signup = () => {
     }
     try {
        await axios.post(
-        "https://ice-cream-api-red.vercel.app/api/auth/signup",
+        "https://ice-cream-xi-lac.vercel.app/api/auth/signup",
         {
           username,
           email,

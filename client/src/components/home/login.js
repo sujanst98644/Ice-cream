@@ -9,7 +9,7 @@ const Login = () => {
   const navigate = useNavigate();
   const loginUser = async (email, password) => {
     try {
-       const response = await axios.post("https://ice-cream-api-red.vercel.app/api/auth/login", {
+       const response = await axios.post("https://ice-cream-xi-lac.vercel.app/api/auth/login", {
         email,
         password
       }, {
