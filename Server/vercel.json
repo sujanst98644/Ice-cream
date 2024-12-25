@@ -1,10 +1,10 @@
 {
     "version": 2,
+    "name": "Ice-cream",
     "builds": [
-    { "src": "server.js", "use": "@vercel/node" },
-    { "src": "src", "use": "@vercel/static-build" }
-  ],
-  "routes": [
-    { "src": "/api/(.*)", "dest": "server.js" },
-    { "src": "/(.*)", "dest": "/src/$1" }  ]
-}
+       { "src": "app.js", "use": "@vercel/node" }
+    ],
+    "routes": [
+       { "src": "/(.*)", "dest": "/app.js" }
+    ]
+ }
