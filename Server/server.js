@@ -32,6 +32,10 @@ dbConnect();
 // Routes
 app.use("/api/auth", authRoute);
 
+app.get("/", (req, res) => {
+  res.json({ message: "Welcome to the API" });
+});
+
 // Fallback Route
 app.use((req, res) => {
   res.status(404).json({ message: "Route not found" });
