@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Front = () => {
   return (
@@ -13,8 +14,8 @@ const Front = () => {
           sed vestibulum.
         </div>
         <div className="my-10 space-x-10 font-light">
-          <button className="bg-[#E24B4B] rounded-lg  h-12 w-36">Order</button>
-          <button className="border rounded-lg h-12 w-36">more flavor</button>
+          <Link to='/flavors'><button className="bg-[#E24B4B] rounded-lg  h-12 w-36">Order</button></Link>
+          <Link to='/flavors'><button className="border rounded-lg h-12 w-36">more flavor</button></Link>
         </div>
       </div>
       <div className="w-4/5">

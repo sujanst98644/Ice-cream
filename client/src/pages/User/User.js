@@ -1,6 +1,7 @@
+
 import React, { useEffect, useState } from "react";
-import Navbar from "./components/home/Navbar";
-import Footer from "./components/home/Footer";
+import Navbar from "../../components/home/Navbar";
+import Footer from "../../components/home/Footer";
 import { IoMoon } from "react-icons/io5";
 import { IoSunny } from "react-icons/io5";
 import { Outlet } from "react-router-dom";
