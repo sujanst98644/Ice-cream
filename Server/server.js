@@ -11,7 +11,7 @@ const app = express();
 app.use(express.json());
 app.use(
   cors({
-    origin: "https://ice-cream-api-red.vercel.app/", 
+    origin: "https://ice-cream-xi-lac.vercel.app/", 
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true,
   })
